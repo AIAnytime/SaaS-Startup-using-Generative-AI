@@ -1,0 +1,9 @@
+hashlib: Provides interfaces to secure hash algorithms. It is used to generate hash values of
+data. In our case, we will use hashlib to hash user information before storing them in the
+database for security purposes.
+• sqlite3: This library provides a lightweight disk-based database that doesn’t require a separate
+server process and allows us to access the database using SQL commands. We will use it to
+create and manage a database to store user information.
+• stripe: This is a third-party library that provides a Python client for the Stripe API, which
+allows us to handle payments in our application. We will use it to process payments made by
+users through our application.
